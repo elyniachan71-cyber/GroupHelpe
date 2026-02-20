@@ -1,6 +1,13 @@
 {
-  "devDependencies": {
-    "jsdoc-to-markdown": "^8.0.3"
+  "name": "grouphelp-bot",
+  "version": "1.0.0",
+  "description": "Telegram Group Help Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
   },
   "dependencies": {
     "@xmldom/xmldom": "^0.8.10",
@@ -11,5 +18,8 @@
     "node-telegram-bot-api": "github:yagop/node-telegram-bot-api",
     "randomcolor": "^0.6.2",
     "svg-captcha": "^1.4.0"
+  },
+  "devDependencies": {
+    "jsdoc-to-markdown": "^8.0.3"
   }
 }
