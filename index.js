@@ -49,7 +49,7 @@ async function main() {
 
     // load bot
     var LGHelpBot = require("./main.js");
-    var { GHbot, TGbot, db } = await LGHelpBot(config, process.env.8354360883:AAE_xku2BTb7Wf5BL64V5qa2Tvy_PmFR9QQ);
+    var { GHbot, TGbot, db } = await LGHelpBot(config, process.env.BOT_TOKEN);
 
     // load modules and run their function
     console.log("Loading modules...");
